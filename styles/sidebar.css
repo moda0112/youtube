@@ -1,0 +1,38 @@
+.sidebar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    width: 72px;
+    background-color: white;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.05);
+    z-index: 1000;
+}
+
+.sidebar-icon img {
+    width: 24px;
+    margin-bottom: 5px;
+}
+
+.sidebar-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 72px;
+    flex-direction: column;
+    padding-top: 4px;
+    cursor: pointer;
+}
+
+.sidebar-content {
+    font-size: 10px;
+    font-family: Roboto, Arial;
+    display: inline-block;
+}
+
+.sidebar-icon:hover {
+    background-color: rgb(238, 232, 232);
+}
+
+
